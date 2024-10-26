@@ -1,0 +1,49 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    --text: #e8eff6;
+    --background: #060a0e;
+    --primary: #95b5d6;
+    --secondary: #452d74;
+    --accent: #9663c3;
+    background-color: var(--background);
+    color: var(--text);
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+    width: 100vw;
+}
+
+.count{
+    font-size: 3em;
+    cursor: pointer;
+    color: var(--primary);
+}
+
+.reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset button{
+    cursor: pointer;
+    background-color: var(--accent);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: var(--secondary);
+}
